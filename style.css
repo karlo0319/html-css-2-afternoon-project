@@ -1,0 +1,80 @@
+body {
+    background: #000000; 
+    background:
+    url(https://www.spacex.com/static/images/backgrounds/home_feature.webp) 
+    no-repeat center top fixed;
+    background-size: cover;
+ }
+    
+ 
+.main-header{
+    height:100px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.main-header nav{
+    width: 60%;
+    font: Bold,Arial,Verdana,sans-serif;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 15vw;
+}
+
+.main-header nav:hover{
+    text-decoration: underline ;
+}
+
+.main-header h1{
+    font-size: 35px;
+    padding-left: 15px;
+}
+
+.push-button {
+    align-items:right;
+    background-color: transparent;
+}
+
+.main-content {
+    height: calc(100vh - 100px);
+}
+
+.main-content h3{
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 65%;
+    margin-left: 5%;
+}
+
+.main-content h1{
+    width: 100%;
+    font-size: 45px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    margin-left: 5%;
+}
+
+.learn-more{
+    box-sizing: border-box;
+    padding: 15px;
+    font-size:15px;
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 80%;
+    margin-left: 5%;
+    border-color: white;
+}
+
+.learn-more:hover{
+    background-color: white;
+    color: black;
+}
