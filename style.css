@@ -19,17 +19,11 @@ body {
 }
 
 .main-header nav{
-    width: 60%;
+    width: 50%;
     display:flex;
     justify-content: space-between;
-    padding-right: 15vw;
-    font-style: normal;
-    font-variant-ligatures: normal;
-    font-variant-caps: normal;
-    font-variant-numeric: normal;
-    font-variant-east-asian: normal;
-    font-weight: 500;
-    font-stretch: normal;
+    padding-right: 20vw;
+    font-weight: bold;
     font-size: 14px;
     line-height: 28px;
     font-family: DINPro-Bold, Arial, Verdana, sans-serif;
