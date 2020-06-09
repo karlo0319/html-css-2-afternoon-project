@@ -62,17 +62,17 @@ body {
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 72%;
+    top: 60%;
 }
 
 .main-content h1{
     width: 100%;
-    font-size: 30px;
+    font-size: 45px;
     font-weight:bold;
     font-style:normal;
     color: white;
     position: absolute;
-    top: 77%;
+    top: 64%;
 }
 
 .learn-more{
@@ -82,7 +82,7 @@ body {
     color: white;
     background-color: transparent;
     position: absolute;
-    top: 85%;
+    top: 74%;
     border-color: white;
     cursor: pointer;
 }
