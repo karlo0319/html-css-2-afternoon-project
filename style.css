@@ -2,7 +2,7 @@ body {
     background: #000000; 
     background:
     url(https://www.spacex.com/static/images/backgrounds/home_feature.webp) 
-    no-repeat center top fixed;
+    no-repeat center;
     background-size: cover;
  }
     
@@ -20,19 +20,30 @@ body {
 
 .main-header nav{
     width: 60%;
-    font: Bold,Arial,Verdana,sans-serif;
     display:flex;
     justify-content: space-between;
     padding-right: 15vw;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 500;
+    font-stretch: normal;
+    font-size: 14px;
+    line-height: 28px;
+    font-family: DINPro-Bold, Arial, Verdana, sans-serif;
 }
 
 .main-header nav:hover{
-    text-decoration: underline ;
+    text-decoration: underline;
 }
 
 .main-header h1{
     font-size: 35px;
     padding-left: 15px;
+    letter-spacing: .15em;
+    font-family: Medium,Arial,Verdana,sans-serif;
 }
 
 .push-button {
@@ -42,36 +53,38 @@ body {
 
 .main-content {
     height: calc(100vh - 100px);
+    margin-left: 5%;
+    font-family: Bold,Arial,Verdana,sans-serif;
 }
 
 .main-content h3{
     width: 100%;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     position: absolute;
-    top: 65%;
-    margin-left: 5%;
+    top: 72%;
 }
 
 .main-content h1{
     width: 100%;
-    font-size: 45px;
+    font-size: 30px;
+    font-weight:bold;
+    font-style:normal;
     color: white;
     position: absolute;
-    top: 70%;
-    margin-left: 5%;
+    top: 77%;
 }
 
 .learn-more{
-    box-sizing: border-box;
+    box-sizing: content-box;
     padding: 15px;
     font-size:15px;
     color: white;
     background-color: transparent;
     position: absolute;
-    top: 80%;
-    margin-left: 5%;
+    top: 85%;
     border-color: white;
+    cursor: pointer;
 }
 
 .learn-more:hover{
